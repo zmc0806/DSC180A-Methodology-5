@@ -1,6 +1,7 @@
 # DSC180A Methodology Assignment 5
 
 **Name:** Mianchen Zhang 
+
 **Email:** miz030@ucsd.edu 
 
 **Section:** B15 - Powering Progress: Crafting Reliable EV Infrastructure in San Diego  
