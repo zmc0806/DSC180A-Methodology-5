@@ -2,7 +2,9 @@
 
 **Name:** Mianchen Zhang 
 **Email:** miz030@ucsd.edu 
+
 **Section:** B15 - Powering Progress: Crafting Reliable EV Infrastructure in San Diego  
+
 **Mentor:** Phi Nguyen，Ari Gaffen, and James McCloskey,TA: Teresa Lee
 
 ## Methodology 5 Questions
