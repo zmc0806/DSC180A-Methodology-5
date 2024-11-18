@@ -38,11 +38,18 @@ In Quarter 1,  the project mainly focused on data collection and visualization t
 For Quarter 2, I propose the following changes: 
 
 - **Dynamic Modeling**: Incorporate machine learning models like Long Short-Term Memory (LSTM) networks and Prophet for time-series forecasting. This will allow us to predict future charging demands based on historical data trends and seasonality.  
-- **Integration of External Data Sources**: Use traffic flow data, socio-economic factors, and SDG&E’s Time-of-Use pricing plans to improve the model’s accuracy. These factors will help capture user behavior, such as peak travel times and charging patterns.  
+- **Integration of External Data Sources**: Use traffic flow data, socio-economic factors, and SDG&E’s Time-of-Use pricing plans to improve the model’s accuracy. These factors will help capture user behavior.  
 - **Enhanced Visualization**: Build interactive dashboards using tools like Plotly or Dash, providing stakeholders with a clearer understanding of predictive insights and allowing them to test various scenarios interactively.
 
 
 **4. What other techniques would you be interested in using in your project?**
 
 Beyond time-series analysis, I am interested in experimenting with clustering algorithms for spatial optimization of EV chargers. For example, K-Means could help identify underserved areas based on geographic and demographic data. Additionally, neural networks could be used for more complex predictive modeling involving multiple data streams.
+
+- **Clustering Algorithms**:  
+   - Use K-Means or DBSCAN to group areas based on charging demand, population density, and geographic constraints. This can help identify underserved regions or areas with potential for high growth in EV usage.  
+   - Combine clustering with geospatial data from OpenStreetMap to account for road networks, accessibility, and travel distances.
+
+- **Geospatial Network Analysis**:  
+   - Use NetworkX and OSMnx for routing analysis and to simulate how users travel to charging stations. By modeling shortest-path distances and travel times, we can further optimize station placement to reduce congestion and maximize convenience.
 
