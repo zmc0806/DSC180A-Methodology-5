@@ -33,7 +33,14 @@ The goal would be to design a deployment strategy that increases charging access
 
 **3. What is a potential change you'd make to the approach taken in your current Quarter 1 Project?**  
 
-In Quarter 1, the focus was primarily on collecting and cleaning static data for visualization and basic trend analysis. For Quarter 2, I propose enhancing the approach by integrating machine learning models, such as LSTMs or Prophet, to provide time-series forecasts. Additionally, incorporating user behavior data and TOU pricing plans will improve demand prediction accuracy.
+In Quarter 1,  the project mainly focused on data collection and visualization to identify existing trends in EV charging station  distribution. However, the analysis was limited by its static nature and reliance on basic visualizations.
+
+For Quarter 2, I propose the following changes: 
+
+- **Dynamic Modeling**: Incorporate machine learning models like Long Short-Term Memory (LSTM) networks and Prophet for time-series forecasting. This will allow us to predict future charging demands based on historical data trends and seasonality.  
+- **Integration of External Data Sources**: Use traffic flow data, socio-economic factors, and SDG&E’s Time-of-Use pricing plans to improve the model’s accuracy. These factors will help capture user behavior, such as peak travel times and charging patterns.  
+- **Enhanced Visualization**: Build interactive dashboards using tools like Plotly or Dash, providing stakeholders with a clearer understanding of predictive insights and allowing them to test various scenarios interactively.
+
 
 **4. What other techniques would you be interested in using in your project?**
 
