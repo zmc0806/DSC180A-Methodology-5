@@ -33,16 +33,9 @@ The goal would be to design a deployment strategy that increases charging access
 
 **3. What is a potential change you'd make to the approach taken in your current Quarter 1 Project?**  
 
-In Quarter 1, we focused heavily on technical aspects like charging station and charging station locations. For Quarter 2, I would use more social equity metrics into our analysis. This would include:
-- Adding demographic data layers to our geographical analysis
-- Including income level and housing type (multi-unit vs single-family) in our deployment criteria
-- Analyzing the impact of different charging technologies (Level 2 vs DC Fast) on accessibility
+In Quarter 1, the focus was primarily on collecting and cleaning static data for visualization and basic trend analysis. For Quarter 2, I propose enhancing the approach by integrating machine learning models, such as LSTMs or Prophet, to provide time-series forecasts. Additionally, incorporating user behavior data and TOU pricing plans will improve demand prediction accuracy.
 
 **4. What other techniques would you be interested in using in your project?**
 
-I am interested in exploring geospatial analysis and clustering algorithms to identify areas of high demand for new charging stations. In addition, I would like to utilize neural networks for demand forecasting, as they may provide greater accuracy when working with large cubes.
+Beyond time-series analysis, I am interested in experimenting with clustering algorithms for spatial optimization of EV chargers. For example, K-Means could help identify underserved areas based on geographic and demographic data. Additionally, neural networks could be used for more complex predictive modeling involving multiple data streams.
 
-To be specific,I would like to include:
-- Geospatial clustering algorithms to identify optimal charging station locations
-- Machine learning models to predict EV adoption patterns in different communities
-- Network analysis to evaluate charging accessibility across different neighborhoods
